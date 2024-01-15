@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Email Spam Detector</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <h1>Email Spam Detector</h1>
+                    <p>Paste your email content here and click the check button. You will see whether your email is Spam or not.</p>
+                    <form action="/" method="POST">
+                        <input type="text" placeholder="place the email which you want to check" required name="emailContent">
+                        <button type="submit" class="btn" vlaue="Prediction">Check</button>
+                    </form>
+                </div>
+                <div class="col-2">
+                    <div class="container-2">
+                        <div class="result">
+                            <h2>The result of the code here</h2>
+                            <h3>{{data}}</h3>
+                            <div class="space"></div>
+                            <p>Accuracy from Naive bayes Algorithm:</p>
+                            <p>Accuracy from Logistic Regression:</p>
+                            
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

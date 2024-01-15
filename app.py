@@ -19,8 +19,8 @@ def index():
     data['LROutput'] = LROutput
     return render_template('index.html', data=data)
 
-@app.route("/",methods=['POST'])
-def get_data():
+@app.route("/",methods=['post'])
+def my_post():
     text = request.form['text']
     logging.info(f'Text: {text}')
     preprocessed_text = preprocess_text(text)
