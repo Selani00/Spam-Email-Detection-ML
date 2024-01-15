@@ -11,8 +11,12 @@ import pickle
 with open('static/logistic_model.pickle','rb') as file:
     logistic_model = pickle.load(file)
 
+with open('static/naivebayes_model.pickle','rb') as file:
+    naivebayes_model = pickle.load(file)
+
 #load vocabulary
-    
+vocab = pd.read_csv('static/vocabulary.txt',header=None)
+tokens = vocab[0].tolist()
 
 #preprocess
 def preprocess_text(text):
@@ -37,17 +41,23 @@ def preprocess_text(text):
 
 
 #Vectorization
-def Vectorizer(ds,vocabulary):
+def vectorizer(ds):
     vectorized_list=[]
     for sentence in ds:
-        sentence_list = np.zeros(len(vocabulary))
-        for i in range(len(vocabulary)):
-            if vocabulary[i] in sentence.split():
+        sentence_list = np.zeros(len(tokens))
+        for i in range(len(tokens)):
+            if tokens[i] in sentence.split():
                 sentence_list[i] = 1
         vectorized_list.append(sentence_list)
     vectorized_list_new = np.asarray(vectorized_list,dtype='float32')
     return vectorized_list_new
 
 #predict
-
+def get_prediction_from_NB(vectorized_input):
+    prediction = naivebayes_model.predict(vectorized_input)
+    return prediction
+    
+def get_prediction_from_LR(vectorized_input):
+    prediction = logistic_model.predict(vectorized_input)
+    return prediction       
 
