@@ -1,9 +1,4 @@
-2024-01-16 23:15:42,234 - INFO - Starting the app...
-2024-01-16 23:15:42,252 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-01-16 23:27:20,165 - INFO - Starting the app...
+2024-01-16 23:27:20,177 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2024-01-16 23:15:42,253 - INFO - [33mPress CTRL+C to quit[0m
-2024-01-16 23:15:53,428 - INFO - .................Open Home Page.................
-2024-01-16 23:15:53,492 - INFO - 127.0.0.1 - - [16/Jan/2024 23:15:53] "GET / HTTP/1.1" 200 -
-2024-01-16 23:15:53,859 - INFO - 127.0.0.1 - - [16/Jan/2024 23:15:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-2024-01-16 23:15:54,023 - INFO - 127.0.0.1 - - [16/Jan/2024 23:15:54] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -
-2024-01-16 23:15:54,219 - INFO - 127.0.0.1 - - [16/Jan/2024 23:15:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-16 23:27:20,179 - INFO - [33mPress CTRL+C to quit[0m
