@@ -1,28 +1,9 @@
-2024-01-16 16:32:06,129 - INFO - Starting the app...
-2024-01-16 16:32:06,147 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-01-16 23:15:42,234 - INFO - Starting the app...
+2024-01-16 23:15:42,252 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2024-01-16 16:32:06,147 - INFO - [33mPress CTRL+C to quit[0m
-2024-01-16 16:32:08,507 - INFO - .................Open Home Page.................
-2024-01-16 16:32:08,537 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:08] "GET / HTTP/1.1" 200 -
-2024-01-16 16:32:08,697 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-2024-01-16 16:32:08,777 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:08] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -
-2024-01-16 16:32:12,734 - INFO - .................Open Home Page.................
-2024-01-16 16:32:12,735 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:12] "GET / HTTP/1.1" 200 -
-2024-01-16 16:32:12,783 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-2024-01-16 16:32:12,810 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:12] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -
-2024-01-16 16:32:23,011 - INFO - .................Open Home Page.................
-2024-01-16 16:32:23,013 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:23] "GET / HTTP/1.1" 200 -
-2024-01-16 16:32:23,106 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
-2024-01-16 16:32:23,150 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:23] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -
-2024-01-16 16:32:42,473 - INFO - .................Open Home Page.................
-2024-01-16 16:32:42,474 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:42] "GET / HTTP/1.1" 200 -
-2024-01-16 16:32:42,547 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:42] "GET /static/css/main.css HTTP/1.1" 200 -
-2024-01-16 16:32:42,578 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:42] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -
-2024-01-16 16:33:09,941 - INFO - .................Open Home Page.................
-2024-01-16 16:33:09,943 - INFO - 127.0.0.1 - - [16/Jan/2024 16:33:09] "GET / HTTP/1.1" 200 -
-2024-01-16 16:33:10,005 - INFO - 127.0.0.1 - - [16/Jan/2024 16:33:10] "GET /static/css/main.css HTTP/1.1" 200 -
-2024-01-16 16:33:10,033 - INFO - 127.0.0.1 - - [16/Jan/2024 16:33:10] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -
-2024-01-16 16:33:28,263 - INFO - .................Open Home Page.................
-2024-01-16 16:33:28,264 - INFO - 127.0.0.1 - - [16/Jan/2024 16:33:28] "GET / HTTP/1.1" 200 -
-2024-01-16 16:33:28,327 - INFO - 127.0.0.1 - - [16/Jan/2024 16:33:28] "GET /static/css/main.css HTTP/1.1" 200 -
-2024-01-16 16:33:28,358 - INFO - 127.0.0.1 - - [16/Jan/2024 16:33:28] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -
+2024-01-16 23:15:42,253 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-16 23:15:53,428 - INFO - .................Open Home Page.................
+2024-01-16 23:15:53,492 - INFO - 127.0.0.1 - - [16/Jan/2024 23:15:53] "GET / HTTP/1.1" 200 -
+2024-01-16 23:15:53,859 - INFO - 127.0.0.1 - - [16/Jan/2024 23:15:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-16 23:15:54,023 - INFO - 127.0.0.1 - - [16/Jan/2024 23:15:54] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -
+2024-01-16 23:15:54,219 - INFO - 127.0.0.1 - - [16/Jan/2024 23:15:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
