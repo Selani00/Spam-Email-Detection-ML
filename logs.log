@@ -1,4 +1,12 @@
-2024-01-16 00:15:45,317 - INFO - Starting the app...
-2024-01-16 00:15:45,341 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-01-16 16:32:06,129 - INFO - Starting the app...
+2024-01-16 16:32:06,147 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2024-01-16 00:15:45,342 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-16 16:32:06,147 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-16 16:32:08,507 - INFO - .................Open Home Page.................
+2024-01-16 16:32:08,537 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:08] "GET / HTTP/1.1" 200 -
+2024-01-16 16:32:08,697 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-16 16:32:08,777 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:08] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -
+2024-01-16 16:32:12,734 - INFO - .................Open Home Page.................
+2024-01-16 16:32:12,735 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:12] "GET / HTTP/1.1" 200 -
+2024-01-16 16:32:12,783 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2024-01-16 16:32:12,810 - INFO - 127.0.0.1 - - [16/Jan/2024 16:32:12] "[36mGET /static/css/background.jpg HTTP/1.1[0m" 304 -

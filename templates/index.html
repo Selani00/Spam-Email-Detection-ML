@@ -1,29 +1,34 @@
-
+<!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Email Spam Detector</title>
-        <Link rel="stylesheet" href=style.css></Link>
+        <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
     </head>
+    
     <body>
         <div class="container">
+            
             <div class="row">
                 <div class="col-1">
                     <h1>Email Spam Detector</h1>
                     <p>Paste your email content here and click the check button. You will see whether your email is Spam or not.</p>
-                    <form action="/" method="POST">
-                        <input type="text" placeholder="place the email which you want to check" required name="emailContent">
-                        <button type="submit" class="btn" vlaue="Prediction">Check</button>
+                    <form action="/" method="post">
+                        <input type="text" placeholder="place the email which you want to check" required name="text">
+                        <button type="submit" class="btn">Check</button>
                     </form>
                 </div>
                 <div class="col-2">
                     <div class="container-2">
                         <div class="result">
-                            <h2>The result of the code here</h2>
-                            <h3>{{data}}</h3>
+                            <h2>Prediction from Logistic Regression:</h2>
+                            
+                            <h3>{{data.LROutput}}</h3>
                             <div class="space"></div>
-                            <p>Accuracy from Naive bayes Algorithm:{data[]}</p>
-                            <p>Accuracy from Logistic Regression:</p>
+                            <h2>Prediction from Naive bayes Algorithm:</h2>
+                            <h3>{{data.NBOutput}}</h3>
                             
                         </div>
                     </div>
